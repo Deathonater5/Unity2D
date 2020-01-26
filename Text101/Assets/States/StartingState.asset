@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 764bffd1ff0a47342a9f1ddfe1ae92fd, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "Welcome! You are probably wondering how you got here, worry not for
+    you are about to start a great adventure!\r\n\nSigh how did a get here and what
+    was that voice? ... but there is no one here ... it is dark in here but I see
+    light\r\nthrough the door up ahead. hmm, theres a door behind me too ...\r\n\r\nWhich
+    one should I take?\r\n1. The one in front.\r\n2. The one behind."
+  nextStates:
+  - {fileID: 11400000, guid: 542751e35ce15724eb52c0c43e82898a, type: 2}
+  - {fileID: 11400000, guid: 22d03166087d85548b676c73738404b5, type: 2}
